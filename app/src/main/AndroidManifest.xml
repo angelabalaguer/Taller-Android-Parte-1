@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AcercaDe" android:theme="@android:style/Theme.Dialog"></activity>
+        <activity android:name=".MiRecyclerView"></activity>
+        <activity android:name=".Manipulacion" />
+        <activity
+            android:name=".AcercaDe"
+            android:theme="@android:style/Theme.Dialog" />
         <activity android:name=".MiFragmentTabhost" />
         <activity android:name=".MiSpinner" />
         <activity android:name=".MainActivity" />

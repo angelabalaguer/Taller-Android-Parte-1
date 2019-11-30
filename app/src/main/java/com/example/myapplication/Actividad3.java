@@ -74,4 +74,18 @@ public class Actividad3 extends AppCompatActivity {
         startActivity(new Intent(this, AcercaDe.class));
 
     }
+
+    public void manipulacion(View view) {
+
+        startActivity(new Intent(this, Manipulacion.class));
+
+    }
+    public void salir(View view){
+        finish();
+    }
+
+    public void mirecyclerview(View view) {
+        startActivity(new Intent(this, MiRecyclerView.class));
+
+    }
 }

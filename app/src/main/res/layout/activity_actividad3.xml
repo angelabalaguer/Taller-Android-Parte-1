@@ -35,14 +35,17 @@
         android:onClick="fragmentTabhost"
         />
 
-    <Button android:id="@+id/button04"
+    <Button android:id="@+id/opcion3"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion3"/>
+        android:text="@string/opcion3"
+        android:onClick="manipulacion"/>
+
     <Button android:id="@+id/button03"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/opcion4"/>
+        android:text="@string/opcion4"
+        android:onClick="mirecyclerview"/>
 
 
     <Button
@@ -59,7 +62,8 @@
     <Button android:id="@+id/button05"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:text="@string/Salir"/>
+        android:text="@string/Salir"
+        android:onClick="salir"/>
 
 
 </LinearLayout>
